@@ -16,4 +16,4 @@ echo "OUT-VIDEO: $out_video"
 source .venv/bin/activate
 set -e
 python go.py "$in_video"
-python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face_det_batch_size 4 --face "$in_video" --audio "$in_audio" --pads $pad_top $pad_bottom $pad_left $pad_right --resize_factor $rescaleFactor --outfile "$out_video"
+python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth --face_det_batch_size 6 --face "$in_video" --audio "$in_audio" --pads $pad_top $pad_bottom $pad_left $pad_right --resize_factor $rescaleFactor --outfile "$out_video"
