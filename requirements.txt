@@ -6,3 +6,6 @@ torch
 torchvision
 tqdm
 numba
+ffmpeg-python
+# https://raw.githubusercontent.com/AwaleSajil/ghc/master/ghc-1.0-py3-none-any.whl
+moviepy
