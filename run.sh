@@ -5,9 +5,9 @@ pad_bottom=10
 pad_left=0
 pad_right=0
 rescaleFactor=1
-in_video="_in/grandpa.mp4"
-in_audio="_in/grandpa.wav"
-out_video="_in/grandpa_out.mp4"
+in_video="$HOME/Downloads/NotLikeYou.mp4"
+in_audio="$HOME/Downloads/NotLikeYou.wav"
+out_video="$HOME/Downloads/NotLikeYou_done.mp4"
 
 echo "IN-AUDIO: $in_audio"
 echo "IN-VIDEO: $in_video"
